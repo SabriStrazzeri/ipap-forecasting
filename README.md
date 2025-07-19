@@ -14,26 +14,26 @@ The dataset `IPAP.xlsx` contains monthly IPAP values over a 20-year period. It m
    - Cleaned and formatted the date column.
    - Handled missing values and set the time index.
 
-2. **📊 Visualization**:
+2. **Visualization**:
    - Plotted the IPAP time series.
    - Created seasonal plots to observe yearly patterns.
 
-3. **🎯 Seasonal Decomposition**:
+3. **Seasonal Decomposition**:
    - Applied additive decomposition to extract trend, seasonality, and residuals.
    - Visualized seasonal coefficients and adjusted series.
 
-4. **✂️ Train-Test Split**:
+4. **Train-Test Split**:
    - Split the data into training (first 240 months) and testing (last 12 months).
 
-5. **🧪 Smoothing Models**:
+5. **Smoothing Models**:
    - Applied Simple Exponential Smoothing, Holt’s Linear Trend, Damped Trend, and Holt-Winters models.
    - Compared forecasts and visualized model components.
 
-6. **🔁 ARIMA Model**:
+6. **ARIMA Model**:
    - Performed differencing and analyzed ACF/PACF plots.
    - Built a manual ARIMA model and evaluated its performance.
 
-7. **📆 Seasonal ARIMA Model**:
+7. **Seasonal ARIMA Model**:
    - Applied seasonal differencing and built a SARIMA model.
    - Used `pmdarima` for automatic model selection and forecasting.
 
